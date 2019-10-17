@@ -2,7 +2,7 @@
   "name": "koa-corsjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/GitHubJian/koa-corsjs/issues"
   },
-  "homepage": "https://github.com/GitHubJian/koa-corsjs#readme"
+  "homepage": "https://github.com/GitHubJian/koa-corsjs#readme",
+  "dependencies": {
+    "koa": "^2.10.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "node-run-listener": "^1.0.1"
+  }
 }

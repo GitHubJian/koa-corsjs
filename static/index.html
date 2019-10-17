@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Test
+    </title>
+  </head>
+  <body>
+    <h1>Hello, world</h1>
+
+    <script>
+      fetch('//qwer.com/api/test', {
+        method: 'GET',
+        credentials: 'same-origin',
+        headers: {
+          'content-type': 'application/json'
+        },
+        mode: 'cors'
+      }).then(res => {
+        console.log(res)
+      })
+    </script>
+  </body>
+</html>
